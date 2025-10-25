@@ -15,7 +15,7 @@ public class nestedUjianSkripsi17 {
         int bimbinganP2 = sc.nextInt();
 
         if (bebasKompen.equalsIgnoreCase("Ya")) {
-            if (bimbinganP1 >= 3 && bimbinganP2 >= 3) {
+            if (bimbinganP1 >= 8 && bimbinganP2 >= 4) {
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
             } else if (bimbinganP1 < 8 && bimbinganP2 < 4) {
                 pesan = "Gagal! Log bimbingan P1 kurang dari 8 kali dan P2 kurang dari 4 kali";
